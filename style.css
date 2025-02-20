@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-shadow: 5px 3px 4px #ccced7;
+
+
+}
+body {
+    background-color: rgba(0, 0, 0, 0.947) ;
+    text-align: center;
+    animation: bganim 10s linear infinite;
+}
+@keyframes bganim {
+    0%{background-color: #090909;}
+    25%{background-color: #433b3b;}
+    50%{background-color: #808a81;}
+    75%{background-color: #555969;}
+    90%{background-color: #373437;}
+    100%{background-color: #010100;}
+    
+}
+.container {
+    height: 70%;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+
+}
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center ;
+    align-items: center;
+    gap: 1.5vmin;
+
+}
+
+.but {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 4rem rgb(64, 234, 195);
+    font-size: 8vmin;
+    color: #6c0f0b;
+    background-color: #ffffc7;
+    
+}
+
+.but:hover {
+    opacity: .8;
+        
+}
+#resetbut {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #53d5d3df;
+    color: #FFFF;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 5rem rgb(63, 79, 228);
+    text-shadow: 5px 5px 5px #010100;
+    
+
+}
+#resetbut:hover {
+    color: #d6ea9b;
+}
+
+#newbut {
+    
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #dbdb63;
+    color: #da5f13;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 2.5rem rgb(2, 248, 207);
+    text-shadow: 3px 2px 4px #082bda;
+}
+#newbut:hover{
+    color: #082bda;
+}
+
+#msg {
+    color: #ffffc7;
+    font-size: 8vmin;
+
+}
+
+.msg_con {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+
+}
+.hide {
+    display: none;
+}
+#h01 {
+    display: inline;
+    font-size: 2rem;
+    color: rgb(7, 168, 227);
+    margin-bottom: 10%;
+    
+    text-shadow: 20px 0px 30px #df4d0e;
+    
+    
+}
+#h02 {
+    display: inline;
+    font-size: 2rem;
+    color: rgb(218, 165, 80);
+    margin-bottom: 10%;
+    
+    text-shadow: 20px 0px 30px #32840f;
+    
+    
+}
